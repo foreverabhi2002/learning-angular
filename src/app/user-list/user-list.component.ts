@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   ]
 })
 export class UserListComponent {
-
+  title: string = 'Get Input Box';
+  displayVal: string='';
+  getVal(val:string) {
+    console.log(val)
+    this.displayVal=val
+  }
 }

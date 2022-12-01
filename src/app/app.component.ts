@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'blog';
   time = `It's ${new Date}`;
   getName() {
-    console.log("Clicked!!!")
+    console.log("Clicked !!!")
   }
   getData(box:any) {
     console.warn(box)
