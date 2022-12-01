@@ -5,3 +5,13 @@
 <app-user-list></app-user-list>
 <app-student-list></app-student-list>
 <app-login></app-login>
+<br><br>
+<input type="text" #box (keyup)="getData(box.value)" placeholder="event keyup" />
+<br>
+<input type="text" #box1 (blur)="getData(box1.value)" placeholder="event blur" />
+<br>
+<input type="text" #box2 (keyup)="getData(box2.value)" placeholder="event input" />
+<br>
+<h1 (mouseover)="greet('hovered')">Text</h1>
+<br>
+<h1 (mouseleave)="greet('hovered')">Text</h1>

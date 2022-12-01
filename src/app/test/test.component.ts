@@ -4,9 +4,9 @@ import { Component } from '@angular/core';
   selector: 'app-test',
   templateUrl: './test.component.html',
   styleUrls: ['./test.component.css']
-})
+}) 
 export class TestComponent {
-  getName() {
-    console.log("Working from a component!!!")
+  getName(name:string) {
+    console.log(`Hello ${name}`)
   }
 }

@@ -11,4 +11,10 @@ export class AppComponent {
   getName() {
     console.log("Clicked!!!")
   }
+  getData(box:any) {
+    console.warn(box)
+  }
+  greet(hover:any) {
+    console.warn(hover)
+  }
 }
