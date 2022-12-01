@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./test.component.css']
 })
 export class TestComponent {
-
+  getName() {
+    console.log("Working from a component!!!")
+  }
 }

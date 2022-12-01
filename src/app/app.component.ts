@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'blog';
   time = `It's ${new Date}`;
+  getName() {
+    console.log("Clicked!!!")
+  }
 }
